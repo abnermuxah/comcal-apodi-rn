@@ -1,0 +1,113 @@
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+	color: #222222;
+	background-color: #00864A;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.superinfo {
+    background: #C16558;
+    color: white;
+}
+
+.superinfo {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.logo {
+	width: 150px;
+	margin: 20px;
+}
+.menu {
+	margin: 0 auto;
+	display: flex;
+	max-width: 960px;
+	justify-content: space-between;
+	background-color: #EFFFF7;
+}
+.menu-nav {
+	margin: auto 0;
+}
+.menu-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+ul > li {
+	padding: 10px;
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
+.sobre {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #EFFFF7;
+	padding: 20px;
+}
+
+.titulo > p {
+	color: #222222;
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
+.sobre-bg {	
+	display: flex;
+	margin: 0 auto;
+	background-image: url("background-comcal.jpeg");
+	max-width: 960px;
+	height: 400px;
+}
+.titulo-sobre {
+	color: white;
+	margin: 0 auto;
+	padding : 20px;
+	align-self: center;
+	font-size: 1.875em;
+}
+
+.produtos-bg {	
+	display: flex;
+	margin: 0 auto;
+	max-width: 960px;
+	height: 400px;
+	background-color: #141D2C;
+}
+
+.produto-titulo {
+	margin-top: 30px;
+	background-color:#283141;
+	padding: 20px;
+	align-self: start;
+}
+.produto-titulo > p {
+	color: white;
+	font-size: 1.25em;
+	font-weight: 500;
+}
