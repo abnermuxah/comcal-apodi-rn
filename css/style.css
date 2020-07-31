@@ -94,20 +94,37 @@ ul > li {
 
 .produtos-bg {	
 	display: flex;
+	justify-content: space-around;
 	margin: 0 auto;
 	max-width: 960px;
-	height: 400px;
+	height: 800px;
 	background-color: #141D2C;
 }
 
 .produto-titulo {
 	margin-top: 30px;
 	background-color:#283141;
-	padding: 20px;
+	padding: 10px;
 	align-self: start;
+	
 }
 .produto-titulo > p {
 	color: white;
 	font-size: 1.25em;
 	font-weight: 500;
+	padding: 10px;
+}
+.descricao {
+	background-color: #141D2C;
+}
+.produto-img {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.subtitulo {
+	color: #A1A1A1;
+	font-weight: 500;
+	padding: 5px;
 }
