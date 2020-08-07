@@ -5,6 +5,7 @@ body, h1, h2, p, ul, li, a {
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+	
 	color: #222222;
 	background-color: #00864A;
 }
@@ -26,7 +27,7 @@ img {
 
 .superinfo {
     background: #C16558;
-    color: white;
+	color: white;
 }
 
 .superinfo {
@@ -79,6 +80,7 @@ a:hover {
 	margin-top: 30px;
 	background-color: #EFFFF7;
 	padding: 20px;
+	
 }
 
 .titulo > p {
@@ -104,7 +106,9 @@ a:hover {
 	margin: 0 auto;
 	padding : 20px;
 	align-self: center;
+	text-align: center;
 	font-size: 1.875em;
+
 }
 
 .produtos-bg {	
@@ -113,7 +117,8 @@ a:hover {
 	justify-content: space-around;
 	margin: 0 auto;
 	max-width: 960px;
-	height: 700px;
+	min-height: 700px;
+	padding-bottom: 40px;
 	background-color: #141D2C;
 }
 
@@ -122,7 +127,7 @@ a:hover {
 	background-color:#283141;
 	padding: 5px;
 	align-self: start;
-	
+
 }
 .produto-titulo > p {
 	color: white;
@@ -132,6 +137,7 @@ a:hover {
 }
 .descricao {
 	background-color: #141D2C;
+	padding: 20px;
 }
 .produto-img {
 	max-width: 300px;
@@ -161,8 +167,8 @@ a:hover {
 	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 960px;
-	height: 700px;
 	background-color: #141D2C;
+	padding-bottom: 40px;
 }
 
 .contato {
@@ -180,5 +186,24 @@ a:hover {
 }
 
 
+@media (max-width: 700px) {
+ .menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+
+	.titulo-sobre {
+		font-size: 1.5em;
+	}
+	.produtos-bg {	
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.contato {
+		font-size: 0.75em;
+	}
 
 
+}
